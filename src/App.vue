@@ -68,7 +68,7 @@ export default {
   methods: {
     createTodo(newTodo) {
       this.users.push(newTodo);
-      sweetalert("Success!", "To-Do created!", "success");
+      sweetalert("Success!", "User created!", "success");
     },
   },
 };
